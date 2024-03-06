@@ -17,13 +17,13 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_URL: 'https://www.vlafriday.space/category/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE', // Кнопка зоны героя
   STARTER_HERO_BUTTON_2_TEXT: 'Youtube канал', // Кнопка зоны героя
   STARTER_HERO_BUTTON_2_URL: 'https://youtube.com/@vlafriday', // Кнопка зоны героя
-  STARTER_HERO_PREVIEW_IMAGE: 'https://file.notion.so/f/f/552435b8-f15d-41bf-b8a2-713cf6d238c5/dc1c0db2-adaf-4efa-a228-e47c062029d8/G3o8RUTBg2o.jpg?id=2d739e23-0da8-43b7-a58f-e51939645a5d&table=block&spaceId=552435b8-f15d-41bf-b8a2-713cf6d238c5&expirationTimestamp=1709445600000&signature=EabaRgYKNAs_rHGqUPJZaECjuwsMFDbrk48gZkhXUWI&downloadName=G3o8RUTBg2o.jpg', // Изображение предварительного просмотра продукта, по умолчанию читается публичная директория изображения
+  STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.web', // Изображение предварительного просмотра продукта, по умолчанию читается публичная директория изображения
 
   // Верхняя правая навигация
-  STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
+  STARTER_NAV_BUTTON_1_TEXT: 'Войти',
   STARTER_NAV_BUTTON_1_URL: '/signin',
 
-  STARTER_NAV_BUTTON_2_TEXT: 'Sign Up',
+  STARTER_NAV_BUTTON_2_TEXT: 'Регистрация',
   STARTER_NAV_BUTTON_2_URL: '/signup',
 
   // 特性区块
