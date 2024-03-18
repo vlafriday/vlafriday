@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import YouTube from 'react-youtube'
-import { useEffect } from 'react'
 
 export const YouTubePlayer = ({ post }) => {
   const [YTTime, setYTTime] = useState(0)
