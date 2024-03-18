@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/* For componets/YouTube.js  */
+.video-player > div {
+  width: 100%;
+  height: 100%;
+}
+.video-player > .yt-anchor {
+  position: relative;
+  height: 0px;
+}
+/* For componets/YouTube.js  */
+
 .wrapper {
   min-height: 100vh;
   display: flex;
