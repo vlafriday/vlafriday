@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect } from 'react';
 import YouTube from 'react-youtube'
 
 export const YouTubePlayer = ({ post }) => {
