@@ -22,7 +22,7 @@ const BLOG = {
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'vlafriday', // Ваш никнейм, например vlafriday.
   BIO: process.env.NEXT_PUBLIC_BIO || 'Тот самый Фрайдей', // об авторе
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.vlafriday.space/', // адрес веб-сайта
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'vlafriday, блог, Владислав Пятница, Тот самый Фрайдей, саморазвитие', // Ключевые слова сайта, разделенные английскими запятыми
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'vlafriday, блог, Владислав Пятница, Тот самый Фрайдей, саморазвитие, мотивация', // Ключевые слова сайта, разделенные английскими запятыми
 
   // Социальная ссылка. Если она не требуется, оставьте ее пустой, например CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // Адрес электронной почты mail@tangly1024.com
