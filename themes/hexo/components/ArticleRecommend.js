@@ -43,7 +43,7 @@ export default function ArticleRecommend({ recommendPosts, siteInfo }) {
               className='flex h-40 cursor-pointer overflow-hidden'>
               <div className='h-full w-full relative group'>
                 <div className='flex items-center justify-center w-full h-full duration-300 '>
-                  <div className='z-10 text-lg px-4 font-bold text-white text-center shadow-text select-none'>
+                  <div className='z-10 text-lg px-4 font-bold text-white text-center shadow-text select-none hidden'>
                     {post.title}
                   </div>
                 </div>
