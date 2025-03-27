@@ -33,7 +33,7 @@ const Footer = ({ title }) => {
           <span className='px-1 busuanzi_value_site_uv'> </span>
         </span>
         <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>
-          {title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}
+          {title} {siteConfig('BIO')}
         </h1>
         <PoweredBy className='justify-center' />
       </span>
