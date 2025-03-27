@@ -7,7 +7,7 @@ import { siteConfig } from '@/lib/config'
 export default function PoweredBy(props) {
   return (
     <div className={`inline text-sm font-serif ${props.className || ''}`}>
-      <span className='mr-1'>-</span>
+      <span className='mr-1'>✨</span>
     </div>
   )
 }
