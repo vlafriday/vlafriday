@@ -335,7 +335,7 @@ const ShareButtons = ({ post }) => {
                 key={singleService}
                 className='cursor-pointer bg-green-600 text-white rounded-full mx-1'>
                 <div id='wechat-button'>
-                  <i className='fab fa-qrcode' />
+                  <i className='fas fa-qrcode fa-2x' />
                 </div>
                 <div className='absolute'>
                   <div
