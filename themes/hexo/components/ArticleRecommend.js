@@ -49,7 +49,7 @@ export default function ArticleRecommend({ recommendPosts, siteInfo }) {
                 </div>
                 <LazyImage
                   src={headerImage}
-                  className='absolute top-0 w-full h-full object-cover object-center group-hover:scale-110 group-hover:brightness-50 transform duration-200'
+                  className='absolute top-0 w-full h-full object-cover object-center group-hover:scale-105 group-hover:brightness-50 transform duration-200'
                 />
 
                 {/* Теневая маска для карточки, чтобы выделить текст на изображении. */}
