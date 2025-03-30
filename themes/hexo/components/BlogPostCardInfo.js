@@ -7,7 +7,7 @@ import Link from 'next/link'
 import TagItemMini from './TagItemMini'
 
 /**
- * 博客列表的文字内容
+ * Текстовое содержимое списка блогов
  * @param {*} param0
  * @returns
  */
@@ -23,7 +23,7 @@ export const BlogPostCardInfo = ({
       <div>
         <header>
           <h2>
-            {/* 标题 */}
+            {/* подпись */}
             <Link
               href={post?.href}
               passHref
@@ -37,7 +37,7 @@ export const BlogPostCardInfo = ({
             </Link>
           </h2>
 
-          {/* 分类 */}
+          {/* сортировать */}
           {post?.category && (
             <div
               className={`flex mt-2 items-center ${
@@ -59,14 +59,14 @@ export const BlogPostCardInfo = ({
           )}
         </header>
 
-        {/* 摘要 */}
+        {/* резюме */}
         {(!showPreview || showSummary) && !post.results && (
           <main className='line-clamp-2 replace my-3 text-gray-700  dark:text-gray-300 text-sm font-light leading-7'>
             {post.summary}
           </main>
         )}
 
-        {/* 搜索结果 */}
+        {/* Результаты поиска */}
         {post.results && (
           <p className='line-clamp-2 mt-4 text-gray-700 dark:text-gray-300 text-sm font-light leading-7'>
             {post.results.map((r, index) => (
@@ -75,7 +75,7 @@ export const BlogPostCardInfo = ({
           </p>
         )}
 
-        {/* 预览 */}
+        {/* предварительный просмотр */}
         {showPreview && (
           <div className='overflow-ellipsis truncate'>
             <NotionPage post={post} />
@@ -84,9 +84,9 @@ export const BlogPostCardInfo = ({
       </div>
 
       <div>
-        {/* 日期标签 */}
+        {/* Метка даты */}
         <div className='text-gray-400 justify-between flex'>
-          {/* 日期 */}
+          {/* дата */}
           <Link
             href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
             passHref
