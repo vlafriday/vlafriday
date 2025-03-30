@@ -77,7 +77,12 @@ module.exports = {
         'testimonial-btn': '0px 8px 15px 0px rgba(72, 72, 138, 0.08)',
         1: '0px 1px 3px 0px rgba(166, 175, 195, 0.40)',
         2: '0px 5px 12px 0px rgba(0, 0, 0, 0.10)'
+      },
+
+      scale: {
+        103: '1.03' //добавляем кастомный scale-103
       }
+
     }
   },
   variants: {
